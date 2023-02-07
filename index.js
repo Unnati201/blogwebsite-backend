@@ -1,6 +1,6 @@
 const cors = require("cors");
 const express = require("express");
-const PORT = 3002;
+const PORT = 3001;
 const { connection } = require("./connection");
 
 const userRoutes = require("./routes/users");
